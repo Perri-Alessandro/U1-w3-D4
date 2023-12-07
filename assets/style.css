@@ -28,6 +28,7 @@ footer {
   background-color: rgb(0, 97, 121);
   width: 105%;
   color: rgb(209, 255, 240);
+  border-style: none;
 }
 .background {
   background: linear-gradient(180deg, #3168ff, rgb(255, 53, 255), #3168ff);
@@ -51,7 +52,7 @@ button {
   background-color: rgb(176, 0, 176);
   border-radius: 15px;
   width: 40%;
-  font-size: 150%;
+  font-size: 170%;
   padding: 1.2%;
   cursor: pointer;
   border-style: none;
