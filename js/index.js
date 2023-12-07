@@ -22,6 +22,7 @@ const estraiN = function () {
     // ESTRAGGO UN NUOVO NUMERO, FINCHè NON è STATO ESTRATTO IN PRECEDENZA
   } while (numeriEstratti.includes(numeroRandom));
   // ORA AGGIUNGO QUESTO NUMERO AD ARRAY CREATO INIZIALMENTE
+  console.log("ATTUALMENTE è USCITO IL NUMERO:", numeroRandom);
   numeriEstratti.push(numeroRandom);
   // ORA DEVO MOSTRARE IL NUMERO ESTRATTO NELLA CELLA
   const cella = document.getElementById("cella" + numeroRandom);
