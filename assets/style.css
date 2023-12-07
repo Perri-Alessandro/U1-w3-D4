@@ -1,23 +1,63 @@
 body {
+  margin: 0;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-color: #3168ff;
 }
 h1 {
   text-align: center;
+  margin-top: 3%;
+  font-size: 400%;
+  margin-top: 0;
+  padding-top: 3%;
+  color: rgb(165, 255, 225);
+}
+header {
+  background: linear-gradient(180deg, rgb(255, 53, 255), #3168ff);
+}
+footer {
+  background-color: blue;
 }
 .cella {
-  width: 50px;
-  height: 25px;
+  height: 93%;
   border: solid 1px black;
+  border-radius: 12px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 18px;
-  background-color: aquamarine;
-  width: 95%;
+  font-size: 180%;
+  background-color: rgb(0, 97, 121);
+  width: 105%;
+  color: rgb(209, 255, 240);
+}
+.background {
+  background: linear-gradient(180deg, #3168ff, rgb(255, 53, 255), #3168ff);
+}
+main {
+  margin-top: 6%;
+  margin-left: 30%;
+  margin-right: 30%;
+  width: 90%;
 }
 #tabellone {
   display: grid;
-  grid-template-columns: repeat(6, 50px);
-  grid-gap: 2px;
+  grid-template-columns: repeat(10, 4%);
+  grid-gap: 0.5%;
 }
-.Estratti {
+.estratti {
+  background-color: rgb(45, 209, 0);
+}
+button {
+  margin-top: 8%;
+  background-color: rgb(176, 0, 176);
+  border-radius: 15px;
+  width: 40%;
+  font-size: 150%;
+  padding: 1.2%;
+  cursor: pointer;
+  border-style: none;
+  color: rgb(209, 255, 240);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+#numeroEstratto {
+  color: rgb(0, 66, 44);
 }
