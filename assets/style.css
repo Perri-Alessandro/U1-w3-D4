@@ -1,0 +1,23 @@
+body {
+}
+h1 {
+  text-align: center;
+}
+.cella {
+  width: 50px;
+  height: 25px;
+  border: solid 1px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  background-color: aquamarine;
+  width: 95%;
+}
+#tabellone {
+  display: grid;
+  grid-template-columns: repeat(6, 50px);
+  grid-gap: 2px;
+}
+.Estratti {
+}
